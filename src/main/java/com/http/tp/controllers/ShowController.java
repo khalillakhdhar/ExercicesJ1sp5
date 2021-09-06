@@ -13,4 +13,16 @@ ModelAndView accueil=new ModelAndView("home.html");
 return accueil;
 
 }
+@GetMapping("math")
+public ModelAndView getCalcule()
+{
+ModelAndView calculator=new ModelAndView("calcule.html");
+return calculator;
+}
+@GetMapping("sante")
+public ModelAndView getIndice()
+{
+ModelAndView sante=new ModelAndView("indice.html");
+return sante;
+}
 }
