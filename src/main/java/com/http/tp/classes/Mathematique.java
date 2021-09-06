@@ -1,12 +1,12 @@
 package com.http.tp.classes;
 
-public class Math {
+public class Mathematique {
 private int a,b;
 
 
 
 
-public Math() {
+public Mathematique() {
 }
 
 
@@ -40,7 +40,7 @@ public void setB(int b) {
 
 
 
-public Math(int a, int b) {
+public Mathematique(int a, int b) {
 	this.a = a;
 	this.b = b;
 }
